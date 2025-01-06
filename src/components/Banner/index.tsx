@@ -1,6 +1,7 @@
-import { Imagem, Precos, Titulo } from './styles'
 import Tag from '../Tag'
 import Button from '../Button'
+
+import { Imagem, Precos, Titulo } from './styles'
 import { formataPreco } from '../ProductList/Index'
 import { useGetFeaturedGameQuery } from '../../services/api'
 

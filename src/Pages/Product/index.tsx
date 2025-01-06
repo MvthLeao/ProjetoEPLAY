@@ -1,8 +1,10 @@
 import { useParams } from 'react-router-dom'
+
+import { useGetgameQuery } from '../../services/api'
+
 import Hero from '../../components/Hero'
 import Section from '../../components/Section'
 import Gallery from '../../components/Gallery'
-import { useGetgameQuery } from '../../services/api'
 
 const Product = () => {
   const { id } = useParams()
